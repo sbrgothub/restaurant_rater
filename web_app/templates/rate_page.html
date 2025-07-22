@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><body>
+<form action="/submit_rating" method="post">
+    <input type="hidden" name="unique_id" value="{{ unique_id }}">
+    <h2>Rate Your Food</h2>
+    {% for item in food_items %}
+    <p>{{ item }}: <input type="number" name="rating_{{ item }}" min="1" max="5" required></p>
+    {% endfor %}
+    <hr>
+    <h2>Rate Our Service</h2>
+    <p>Restaurant Comfort: <input type="number" name="comfort_rating" min="1" max="5" required></p>
+    <p>Service Provided: <input type="number" name="service_rating" min="1" max="5" required></p>
+    <p>Staff Character: <input type="number" name="staff_rating" min="1" max="5" required></p>
+    <button type="submit">Submit Feedback</button>
+</form></body></html>

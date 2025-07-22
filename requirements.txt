@@ -1,0 +1,11 @@
+Flask
+pandas
+matplotlib
+requests
+qrcode
+Pillow
+watchdog
+gunicorn
+SQLAlchemy
+psycopg2-binary
+python-dotenv

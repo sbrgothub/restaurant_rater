@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Local Database File
+feedback.db
+
+# PyInstaller files
+dist/
+build/
+*.spec
+
+# Executables and Batch Files
+*.exe
+*.bat
+
+# IDE and OS specific files
+.vscode/
+__pycache__/
+*.pyc

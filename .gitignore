@@ -12,6 +12,7 @@ build/
 # Executables and Batch Files
 *.exe
 *.bat
+main_launcher.py  # <-- ADD THIS LINE
 
 # IDE and OS specific files
 .vscode/
